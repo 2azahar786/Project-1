@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>SEO Master</title>
+
+    <style>
+      .navbar-container{
+        display: flex;
+      }
+
+      .list{
+        display: flex;
+        list-style-type: none;
+        gap: 25px;
+        color: #758283;
+      }
+
+      #home{
+        color: #0D0D0D;
+        
+      }
+
+      .button-group{
+        display: flex;
+        /* align-items: flex-end; */
+        /* margin: 10px; */
+        /* right: 10px; */
+      position: absolute;
+      top: 60px;
+      right: 80px;
+      }
+
+      .container{
+        margin-top: 70px;
+        margin-left: 70px;
+      }
+
+      .nav-button{
+          height: 50px;
+          width: 130px;
+          border: 1px solid #2827CC;
+          border-radius: 12px;
+          background-color:#253898;
+          color: white;
+          font-size: 16px;
+          /* font-family: Arial, Helvetica, sans-serif; */
+          /* font-size: large; */
+        /* padding: 15px 15px 15px 15px; */
+        /* padding-bottom: 10px; */
+        /* display: flex; */
+         /* align-items: flex-end; */
+      }
+
+      /* .navbar-container{ */
+        /* margin-top: 100px; */
+        /* height: 100%; */
+        /* width: 100%; */
+      /* } */
+
+      .heading-text{
+        padding-top: 130px;
+        height: 170px;
+        width: 350px;
+        font-size: 55px;
+        color: #120E43;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        /* margin-top: 50px ; */
+      }
+
+      span{
+        color: #2827CC;
+      }
+
+      .description{
+        color: #758283 ;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      #sos{
+        margin-top: 50px;
+        height: 60px;
+        width: 250px;
+        font-size: 18px;
+        }
+
+        #img2{
+          position: absolute;
+          top: 170px;
+          right: 0.1px;
+        }
+        #img1{
+          height: 40px;
+          width: 100px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section aria-label="navbar">
+        <nav class="navbar-container">
+          <div>
+            <img src="./assets/Logo.png" alt="brand-logo" id="img1"/>
+          </div>
+          <div class="grow-list">
+            <ul class="list">
+              <li class="list-item " id="home">Home</li>
+              <li class="list-item">About</li>
+              <li class="list-item">Services</li>
+              <li class="list-item">Portfolio</li>
+              <li class="list-item">Pricing</li>
+            </ul>
+          </div>
+          <div class="button-group">
+            <button class="nav-button">Contact Us</button>
+          </div>
+        </nav>
+      </section>
+      <!-- Banner -->
+      <section aria-label="banner">
+        <div class="banner-container">
+          <!-- Left text -->
+          <div>
+            <h1 class="heading-text">
+              We Help You <span>Crush</span> Your Competition
+            </h1>
+            <p class="description">
+              Build trust to connect your brand to billions of <br> users and grow
+              your revenue through SEO.
+            </p>
+            <button class="nav-button btn" id="sos">See our services</button>
+          </div>
+          <!-- Right Text -->
+          <div>
+            <img src="./assets/Header Illustration.png" alt="illustration" id="img2"/>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
